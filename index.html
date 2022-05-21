@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>УмножайКа</title>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="content">
+      <div class="content__top">
+        <div class="block__line"></div>
+        <div class="top__text">
+          <p class="header">Умножай<span class="header__in">ка</span></p>
+
+        </div>
+      </div>
+      <div class="content__main">
+        <div class="content__body">
+          <div class="body__examples">
+            <div class="body__example_wrapper">
+              <div class="body__example">
+                <p class="body__computational_example">
+                  <span class="left-number"></span> *
+                  <span class="right-number"></span> =
+                  <input  maxlength="2" autofocus type="text" class="answer">
+                </p>
+              </div>
+              <button class="button">проверить</button>
+            </div>
+          </div>
+          <div class="line"></div>
+          <div class="body__counter">
+            <p class="counter counter1">
+              правильно: <span class="right__answers"></span>
+            </p>
+            <p class="counter counter2">
+              неправильно: <span class="wrong__answers"></span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="content__bottom">
+        <div class="block__line"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
